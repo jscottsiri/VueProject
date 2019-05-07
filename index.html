@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-
-
 	<title>IS219 Gallery (Project 3)</title>
 
 	<!-- Our CSS File along with Boostrap Styles, and FontAwesome Styles-->
@@ -18,9 +16,7 @@
 	<!-- DO NOT CHANGE ANYTHING ABOVE THIS LINE-->
 
 	<!-- Javascript Framework (e.g., vue.js) (ADD HERE) -->
-	<script src="./vue.min.js"></script>
-	<script type="text/javascript" src="site.js"></script>
-	
+	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 </head>
 
   <body>
@@ -29,7 +25,7 @@
 	    <div class="header">
 		    
 	      <div class="container">
-	        <h1 id="app_title">%title%</h1>
+	        <h1 id="vue_app">{{title}}</h1>
 	      </div>
 	      
 	    </div>
@@ -64,14 +60,14 @@
 	    <div class="footer">
 	      <div class="container">
 			<a id="github" class="btn btn-lg btn-warning">
-				<i class="fa fa-lg fa-github pull-left" aria-hidden="true"></i>%owner% %github%
+				<i class="fa fa-lg fa-github pull-left" aria-hidden="true"></i>{{owner}} {{github}}
 	  		</a>
 	      </div>
 	    </div>
 	</div>
   
   	<!-- This load the Vue.js code -->
-	
+	<script type="text/javascript" src="site.js"></script>
 	 
   
 </body>

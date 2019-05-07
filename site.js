@@ -32,7 +32,10 @@ const vue_app = new Vue({
       },
       data: {
             // This holds your movies.json data.
-            movies: []
+            movies: [],
+			title: "IMDB + Scott's Top 8 Movies",
+			owner: "Scott",
+			github: "https://github.com/jscottsiri/VueProject"
 
             /* ADD ADDITIONAL VARIABLES FOR STEP 3 HERE */
       },
