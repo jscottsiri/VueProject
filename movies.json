@@ -68,5 +68,48 @@
             "likes": 812,
             "dislikes": 101,
             "posterindex": 0
+      },
+	  {
+            "title": "Pokemon: The First Movie",
+            "iscore": 6.1,
+            "rating": "G",
+            "runtime": 96,
+            "released": [1999, 11, 10],
+            "country": "USA",
+            "posters": ["img/pokemon1.jpg", "img/pokemon2.jpg"],
+            "imdb": "https://www.imdb.com/title/tt0190641/",
+            "website": "https://www.warnerbros.com/movies/pokemon-first-movie/",
+            "likes": 777,
+            "dislikes": 83,
+            "posterindex": 0
+      },
+	  {
+            "title": "Shrek",
+            "iscore": 7.9,
+            "rating": "PG",
+            "runtime": 90,
+            "released": [2001, 5, 18],
+            "country": "USA",
+            "posters": ["img/shrek1.jpg", "img/shrek2.jpg"],
+            "imdb": "https://www.imdb.com/title/tt0126029",
+            "website": "https://www.dreamworksanimation.com/shrek/",
+            "likes": 428,
+            "dislikes": 32,
+            "posterindex": 0
+      },
+	  {
+            "title": "V for Vendetta",
+            "iscore": 8.2,
+            "rating": "R",
+            "runtime": 132,
+            "released": [2006, 3, 17],
+            "country": "USA",
+            "posters": ["img/V1.jpg", "img/V2.jpg", "img/V3.jpg"],
+            "imdb": "https://www.imdb.com/title/tt0126029",
+            "website": "https://www.warnerbros.com/movies/v-vendetta/",
+            "likes": 654,
+            "dislikes": 231,
+            "posterindex": 0
       }
+	  
 ]

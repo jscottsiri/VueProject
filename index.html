@@ -35,7 +35,7 @@
 
 	      <div class="container" v-for="(mov,index) in movies" :key="index">
 
-	        <div class="col-md-6 movieContainer" > 
+	        <div class="col-md-10 movieContainer" > 
 	            <div class="thumbnail" >
 
 						<img class="poster" v-bind:src="mov.posters[mov.posterindex]" @click="posterClick(index)" />
