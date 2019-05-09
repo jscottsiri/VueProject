@@ -65,6 +65,7 @@ body {
 
 /* This shapes your IMDB score area */
 .score {
+	border-radius: 50%;
     background-color: #39D1B4;
     color: #fff;
     font-size: 18px;
@@ -77,6 +78,7 @@ body {
     position: absolute;
     top: 50px;
     right: 25px;
+	
 }
 
 /* This contains your like and dislike buttons */
@@ -120,7 +122,9 @@ body {
 
 /* ADD YOUR LIKE AND DISLIKE HOVER/MOUSEOVER CSS CODE HERE */
 
-
+.movieContainer{
+    margin-left: 2em;
+}
 
 
 
